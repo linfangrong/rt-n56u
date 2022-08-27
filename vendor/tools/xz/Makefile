@@ -12,6 +12,6 @@ download_test:
 	fi )
 
 extract_test:
-	( if [ ! -d $(ROOTDIR)/trunk/libc/$(SRC_NAME) ]; then \
+	( if [ ! -d $(ROOTDIR)/trunk/tools/mksquashfs_xz/$(SRC_NAME) ]; then \
 		tar -xJf $(SRC_NAME).$(SRC_ARCHIVE_SUFFIX) -C $(ROOTDIR)/trunk/tools/mksquashfs_xz; \
 	fi )
